@@ -40,8 +40,8 @@ https://www.youtube.com/watch?v=JKB3aVyCMuo&t=506s<br />
 
 - We can set the minimum and maximum number of VMs of VNRs in the create_vne function.<br />
 
-- We can set the virtual network request demands like BandWidth(min, max), CRB(min, max), LocationX(min, max), LocationY(min, max), and Delay(min, max) in vne. append function. <br />
-- Example: (1, 5, 1, 10, 0, 100, 0, 100, 1, 4)<br />
+- We can set the virtual network request demands like BandWidth(min, max), CRB(min, max), LocationX(min, max), LocationY(min, max), Delay(min, max), Node Security(min,max), Link Security(min,max), RSA_key(min,max), and Priority_bit(0, 1) in vne. append function. <br />
+- Example: (1, 5, 1, 10, 0, 100, 0, 100, 1, 4, 5, 12, 5, 12, 10, 20, 0, 1)<br />
 
 - Run vne_u.py after doing any modifications. <br />
 
@@ -49,8 +49,8 @@ https://www.youtube.com/watch?v=JKB3aVyCMuo&t=506s<br />
 
 - In the get_graphs function mention the pickle file related to substrate network generation, the same is available in the folder P3_ALIB_MASTER. EX: os.path.join( os.path.dirname(current), "P3_ALIB_MASTER", "input", "senario_RedBestel.pickle",)<br />
 
-- In graph.parameters function set substrate network resources like BandWidth(min,max), CRB(min,max), LocationX(min,max), LocationY(min,max), Delay(min,max).<br />
-- Example: (500, 1000, 200, 1000, 0, 100, 0, 100, 1, 1)<br />
+- In graph.parameters function set substrate network resources like BandWidth(min,max), CRB(min,max), LocationX(min,max), LocationY(min,max), Delay(min,max), Node Security(min,max), Link Security(min,max) .<br />
+- Example: (500, 1000, 200, 1000, 0, 100, 0, 100, 1, 1, 10, 20, 10, 20, 15)<br />
 
 - Run grpah_extraction_uniform.py after doing any modification. <br />
 
@@ -60,7 +60,7 @@ https://www.youtube.com/watch?v=JKB3aVyCMuo&t=506s<br />
 
 ###  In the automate.py file set the VNR size such as [250, 500, 750, 1000] and also mention the number of iterations needs to execute for each VNR size in the iteration variable.<br />
 
-- Finally, run the automate.py file. After successfully running, a 1_uniform.pickle file is created (If it already does not exist in the specified path). It has all input parameters related to the substrate network parameters, such as CRB, Bandwidth, Delay, and Location.
+- Finally, run the automate.py file. After successfully running, a 1_poission.pickle and 1_poisson_vne.pickle file is created related SN and VNRs respectively. (If it already does not exist in the specified path). It has all input parameters related to the substrate network parameters, such as CRB, Bandwidth, Delay, and Location.
 
 - Final embedding results are captured in Results.xlsx, which includes values for various metrics for all test scenarios for every iteration.
 
