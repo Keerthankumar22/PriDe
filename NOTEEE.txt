@@ -1,0 +1,6 @@
+check ranking is computed for failed VNRs alos after initail mapping??
+Chekc y number of link consumed is y more? 
+
+Check execution time is not multplied by 1000?
+
+HAve u people applied the security constraints for other baseline algo also??
