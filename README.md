@@ -23,15 +23,12 @@ https://www.youtube.com/watch?v=JKB3aVyCMuo&t=506s<br />
 
 - Make sure "P3_ALIB_MASTER\input" path contain senario_RedBestel.pickle. If not, generate the substrate network scenario for "senario_RedBestel.pickle" in folder P3_ALIB_MASTER\input and this pickle file contains substrate network information.<br />
 
-###   Download  NORD and keep it in the drive where P3_ALIB_MASTER is present. The  NORD  file contains all executable files related to the proposed and baseline approaches. <br />
+###   Download  STraPS and keep it in the drive where P3_ALIB_MASTER is present. The  STraPS  file contains all executable files related to the proposed and baseline approaches. <br />
 
-- Topsis.py -> The Main file related to the  Proposed NORD approach.<br />
+- Topsis.py -> The Main file related to the  Proposed STraPS approach.<br />
 - Greedy.py -> The Main file related to the  Greedy baseline approach.<br />
 - Nrm.py -> The Main file related to the  NRM baseline approach [2]. <br /> 
 - Rethinking.py -> The Main file related to the  DPGA baseline approach [3]. <br />
-- NodeRankCal.py -> The Main file related to the  VNE-NTANRC-D baseline approach [4]. <br />
-- PageRank.py -> The Main file related to the  VNE-NTANRC-S baseline approach [4]. <br />
-- Puvnp.py -> The Main file related to the  PUVNP  baseline approach [5]. <br />
 - Rematch.py -> The Main file related to the  ReMatch  baseline approach [6]. <br />
 
 
@@ -71,11 +68,7 @@ https://www.youtube.com/watch?v=JKB3aVyCMuo&t=506s<br />
 [1] E. D. Matthias Rost, Alexander Elvers, “Alib,” https://github.com/vnep-approx/alib, 2020. <br />
 [2] P. Zhang, H. Yao, Y. Liu, Virtual network embedding based on computing, network, and storage resource constraints, IEEE Internet of Things Journal 5 (5) (2017) 3298–3304. doi: https://doi.org/10.1109/JIOT.2017.2726120. <br />
 [3] Nguyen, Khoa TD, Qiao Lu, and Changcheng Huang. "Rethinking virtual link mapping in network virtualization." In 2020 IEEE 92nd Vehicular Technology Conference (VTC2020-Fall), pp. 1-5. IEEE, 2020, https://ieeexplore.ieee.org/document/9348799. <br />
-[4] H. Cao, L. Yang, H. Zhu, Novel node-ranking approach and multiple topology attributes-based embedding algorithm for single-domain virtual network embedding, IEEE Internet of Things Journal 5 (1) (2018) 108–120. doi: https://doi.org/10.1109/JIOT.2017.2773489. <br />
-[5] P. Zhang, Incorporating energy and load balance into virtual network embedding process, Computer Communications 129 (2018) 80–88. doi: 
-https://doi.org/10.1016/j.comcom.2018.07.027. <br />
-[6] A. Satpathy, M. N. Sahoo, L. Behera, C. Swain, ReMatch: An Efficient Virtual Data Center Re-Matching Strategy Based on Matching Theory,
-IEEE Transactions on Services Computing (2022). doi: https://doi.org/10.1109/TSC.2022.3183259. <br />
+[6] A. Satpathy, M. N. Sahoo, L. Behera, C. Swain, ReMatch: An Efficient Virtual Data Center Re-Matching Strategy Based on Matching Theory,IEEE Transactions on Services Computing (2022). doi: https://doi.org/10.1109/TSC.2022.3183259. <br />
 
 ## Contributors
 - Mr. Keerthan Kumar T G<br />
