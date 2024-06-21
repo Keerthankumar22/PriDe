@@ -25,8 +25,8 @@ https://www.youtube.com/watch?v=JKB3aVyCMuo&t=506s<br />
 
 ###   Download  PriDe and keep it in the drive where P3_ALIB_MASTER is present. The  PriDe file contains all executable files related to the proposed and baseline approaches. <br />
 
-- Topsis.py -> The Main file related to the  Proposed PriDe approach.<br />
-- Greedy.py -> The Main file related to the  Greedy baseline approach.<br />
+- slicing_topsis_dynamic.py -> The Main file related to the  Proposed PriDe approach.<br />
+- Greedy.py -> The Main file related to the  Greedy baseline approach [7].<br />
 - Nrm.py -> The Main file related to the  NRM baseline approach [2]. <br /> 
 - Rethinking.py -> The Main file related to the  DPGA baseline approach [3]. <br />
 - Rematch.py -> The Main file related to the  ReMatch  baseline approach [6]. <br />
@@ -69,6 +69,7 @@ https://www.youtube.com/watch?v=JKB3aVyCMuo&t=506s<br />
 [2] P. Zhang, H. Yao, Y. Liu, Virtual network embedding based on computing, network, and storage resource constraints, IEEE Internet of Things Journal 5 (5) (2017) 3298–3304. doi: https://doi.org/10.1109/JIOT.2017.2726120. <br />
 [3] Nguyen, Khoa TD, Qiao Lu, and Changcheng Huang. "Rethinking virtual link mapping in network virtualization." In 2020 IEEE 92nd Vehicular Technology Conference (VTC2020-Fall), pp. 1-5. IEEE, 2020, https://ieeexplore.ieee.org/document/9348799. <br />
 [6] A. Satpathy, M. N. Sahoo, L. Behera, C. Swain, ReMatch: An Efficient Virtual Data Center Re-Matching Strategy Based on Matching Theory,IEEE Transactions on Services Computing (2022). doi: https://doi.org/10.1109/TSC.2022.3183259. <br />
+[7] TG, Keerthan Kumar, Sourav Kanti Addya, Anurag Satpathy, and Shashidhar G. Koolagudi. "NORD: NOde Ranking-based efficient virtual network embedding over single Domain substrate networks." Computer Networks 225 (2023): 109661. doi: https://doi.org/10.1016/j.comnet.2023.109661. <br />
 
 ## Contributors
 - Mr. Keerthan Kumar T G<br />
@@ -77,9 +78,10 @@ https://scholar.google.com/citations?user=fW7bzK8AAAAJ&hl=en <br />
 https://anuragsatpathy.github.io/<br />
 - Dr. Sourav kanti addya<br />
 https://souravkaddya.in/<br />
-- Dr Shashidhar G Koolagudi <br />
+- Prof. Shashidhar G Koolagudi <br />
 https://scholar.google.co.in/citations?user=WAyKHHwAAAAJ&hl=en <br />
-
+- Prof. Sajal K. Das <br />
+https://scholar.google.com/citations?user=mbaG-mQAAAAJ&hl=en <br />
 
 ## Contact
 
