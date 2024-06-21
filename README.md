@@ -1,4 +1,4 @@
-# STraPS
+# PriDe
 ## Execution Environment:
 
 Operation System: Microsoft Windows 10, 64bit.<br />
@@ -23,9 +23,9 @@ https://www.youtube.com/watch?v=JKB3aVyCMuo&t=506s<br />
 
 - Make sure "P3_ALIB_MASTER\input" path contain senario_RedBestel.pickle. If not, generate the substrate network scenario for "senario_RedBestel.pickle" in folder P3_ALIB_MASTER\input and this pickle file contains substrate network information.<br />
 
-###   Download  STraPS and keep it in the drive where P3_ALIB_MASTER is present. The  STraPS  file contains all executable files related to the proposed and baseline approaches. <br />
+###   Download  PriDe and keep it in the drive where P3_ALIB_MASTER is present. The  PriDe  file contains all executable files related to the proposed and baseline approaches. <br />
 
-- Topsis.py -> The Main file related to the  Proposed STraPS approach.<br />
+- Topsis.py -> The Main file related to the  Proposed PriDe approach.<br />
 - Greedy.py -> The Main file related to the  Greedy baseline approach.<br />
 - Nrm.py -> The Main file related to the  NRM baseline approach [2]. <br /> 
 - Rethinking.py -> The Main file related to the  DPGA baseline approach [3]. <br />
