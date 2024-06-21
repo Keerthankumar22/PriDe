@@ -10,20 +10,20 @@ Physical Memory (RAM) 16.0 GB.<br />
 Python 3.9.<br />
 PyCharm Community Edition 2021.2. <br />
 Alib utility for VNE simulation.<br />
-Introduction about VNE prblem can be found in below link:<br />
+An introduction about VNE problem can be found in the below link:<br />
 https://www.youtube.com/watch?v=JKB3aVyCMuo&t=506s<br />
 
 ### Installation
 
-###  Download the ALIB_Utility tool unzip and copy it to the execution drive.<br /> 
+###  Download the ALIB_Utility tool, unzip and copy it to the execution drive.<br /> 
 
-- Configure the alib by following the steps mentioned in the github reposotory [1]. <br />
+- Configure the alibi by following the steps mentioned in the GitHub repository [1]. <br />
 
-- Generate the input.pickle file and save it in the P3_ALIB_MASTER\input path. <br />
+- Generate the input. pickle file and save it in the P3_ALIB_MASTER\input path. <br />
 
-- Make sure "P3_ALIB_MASTER\input" path contain senario_RedBestel.pickle. If not, generate the substrate network scenario for "senario_RedBestel.pickle" in folder P3_ALIB_MASTER\input and this pickle file contains substrate network information.<br />
+- Make sure "P3_ALIB_MASTER\input" path contain senario_RedBestel.pickle. If not, generate the substrate network scenario for "senario_RedBestel.pickle" in folder P3_ALIB_MASTER\input, and this pickle file contains substrate network information.<br />
 
-###   Download  PriDe and keep it in the drive where P3_ALIB_MASTER is present. The  PriDe  file contains all executable files related to the proposed and baseline approaches. <br />
+###   Download  PriDe and keep it in the drive where P3_ALIB_MASTER is present. The  PriDe file contains all executable files related to the proposed and baseline approaches. <br />
 
 - Topsis.py -> The Main file related to the  Proposed PriDe approach.<br />
 - Greedy.py -> The Main file related to the  Greedy baseline approach.<br />
@@ -38,14 +38,14 @@ https://www.youtube.com/watch?v=JKB3aVyCMuo&t=506s<br />
 
 ###  In vne_u.py, we can set the various parameters related to Virtual network requests(VNRs).<br />
 
-- We can set the minimum and maximum number of VMs of VNRs in the create_vne function.<br />
+- We can set the minimum and maximum number of VNR VMs in the create_vne function.<br />
 
 - We can set the virtual network request demands like BandWidth(min, max), CRB(min, max), LocationX(min, max), LocationY(min, max), Delay(min, max), Node Security(min,max), Link Security(min,max), RSA_key(min,max), and Priority_bit(0, 1) in vne. append function. <br />
 - Example: (1, 5, 1, 10, 0, 100, 0, 100, 1, 4, 5, 12, 5, 12, 10, 20, 0, 1)<br />
 
 - Run vne_u.py after doing any modifications. <br />
 
-###  In grpah_extraction_uniform.py:<br />
+###  In grpah_extraction_poission.py:<br />
 
 - In the get_graphs function mention the pickle file related to substrate network generation, the same is available in the folder P3_ALIB_MASTER. EX: os.path.join( os.path.dirname(current), "P3_ALIB_MASTER", "input", "senario_RedBestel.pickle",)<br />
 
@@ -54,13 +54,13 @@ https://www.youtube.com/watch?v=JKB3aVyCMuo&t=506s<br />
 
 - Run grpah_extraction_uniform.py after doing any modification. <br />
 
-### grpah_u.py
+### grpah_p.py
 
 - This file generates the standard 1_uniform.pickle file, which contains all the information about substrate network topologies, such as the number of servers, links, and connectivity. It also includes values for each substrate network resource.
 
-###  In the automate.py file set the VNR size such as [250, 500, 750, 1000] and also mention the number of iterations needs to execute for each VNR size in the iteration variable.<br />
+### In the automate.py file, set the VNR size such as [250, 500, 750, 1000] and also mention the number of iterations needed to execute for each VNR size in the iteration variable.<br />
 
-- Finally, run the automate.py file. After successfully running, a 1_poission.pickle and 1_poisson_vne.pickle file is created related SN and VNRs respectively. (If it already does not exist in the specified path). It has all input parameters related to the substrate network parameters, such as CRB, Bandwidth, Delay, and Location.
+- Finally, run the automate.py file. After successfully running, a 1_poission.pickle and 1_poisson_vne.pickle file is created related to SN and VNRs, respectively. (If it already does not exist in the specified path). It has all input parameters related to the substrate network parameters, such as CRB, Bandwidth, Delay, and Location.
 
 - Final embedding results are captured in Results.xlsx, which includes values for various metrics for all test scenarios for every iteration.
 
